@@ -47,9 +47,9 @@
                     <input class="header-search-form" name="search" type="text" id="search" placeholder="search">
                     <button class="search-button"><img class="search-button--png" src="img/search.png" alt=""></button>
                 </form>
-                <div class="col-3 cart">
+                <button class="col-3 cart">
                     <div class="cart-count">4</div>
-                </div>
+                </button>
             </div>
         </div>
     </div>
@@ -66,7 +66,69 @@
     <div class="container">
         <div class="row">
             <div class="col-3">
-                <div class="filter"></div>
+                <div class="filter">
+                    <form method="get" action="#">
+                        <fieldset class="filter-form">
+                            <h2>DEVICE TYPE</h2>
+                            <div>
+                                <input type="checkbox" id="devicetype-laptop">
+                                <label class="filter-label" for="devicetype-laptop">Laptop</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="devicetype-tablet">
+                                <label class="filter-label" for="devicetype-tablet">Tablet</label>
+                            </div>
+                        </fieldset>
+                        <fieldset class="filter-form">
+                            <h2>COLOR</h2>
+                            <div>
+                                <input type="checkbox" id="color-black">
+                                <label class="filter-label" for="color-black">Black</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="color-red">
+                                <label class="filter-label" for="color-red">Red</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="color-green">
+                                <label class="filter-label" for="color-green">Green</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="color-blue">
+                                <label class="filter-label" for="color-blue">Blue</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="color-orange">
+                                <label class="filter-label" for="color-orange">Orange</label>
+                            </div>
+                        </fieldset>
+                        <fieldset class="filter-form">
+                            <h2>RAM</h2>
+                            <div>
+                                <input type="checkbox" id="ram-1gb">
+                                <label class="filter-label" for="ram-1gb">1GB</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="ram-2gb">
+                                <label class="filter-label" for="ram-2gb">2GB</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="ram-4gb">
+                                <label class="filter-label" for="ram-4gb">4GB</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="ram-6gb">
+                                <label class="filter-label" for="ram-6gb">6GB</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="ram-8gb">
+                                <label class="filter-label" for="ram-8gb">8GB</label>
+                            </div>
+                        </fieldset>
+                        <button class="filter-more">Show more options ...</button>
+                        <button class="filter-submit">Submit</button>
+                    </form>
+                </div>
             </div>
             <div class="col-9">
                 <div class="row">
