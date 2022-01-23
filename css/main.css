@@ -366,7 +366,7 @@ input[type="checkbox"]:checked + label::before {
 
 .product-card {
 	width: 100%;
-	margin: 15px 30px 15px 0;
+	margin: 15px 0;
 	border: 1px solid white;
 }
 
